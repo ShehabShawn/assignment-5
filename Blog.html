@@ -9,22 +9,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 </head>
 
-<body class="[font-family:'Poppins',sans-serif] bg-[#F4F7FF]">
-    <nav class="w-[90%] mx-auto bg-white rounded-2xl flex justify-between items-center mt-6 mb-5 p-4">
+<body class="font-[Poppins] bg-[#F4F7FF]">
+    <nav class="w-[90%] mx-auto bg-white rounded-2xl flex justify-between items-center mt-6 mb-5 p-4 relative">
         <div class="flex justify-between items-center">
             <img src="assets/logo.png" alt="">
             <h1 class="text-3xl font-light ml-3">Dev<span class="font-bold">Board</span></h1>
         </div>
-        <div class="items-center">
-            <button id="back-home" class="bg-[#3752FD] text-white font-medium px-5 py-3 rounded-lg">Back to
-                Home</button>
+        <div class="flex items-center">
+            <span class="text-red-600 text-sm mr-4">shehabshawn0152@gmail.com</span>
+            <button id="back-home" class="bg-[#3752FD] text-white font-medium px-5 py-3 rounded-lg">Back to Desk</button>
         </div>
-        
     </nav>
+
+    <section class="w-[90%] mx-auto bg-white p-6 rounded-2xl">
+        <h2 class="text-2xl font-bold mb-4">Blogs</h2>
+        <div class="space-y-4">
+            <div class="p-4 bg-[#F8F9FF] rounded-lg">
+                <h3 class="font-bold">Question-1: What are the different ways to select an element in the DOM?</h3>
+                <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur illum illo hic, ipsum officia obcaecati culpa vel pariatur repellendus quibusdam.</p>
+            </div>
+            <div class="p-4 bg-[#F8F9FF] rounded-lg">
+                <h3 class="font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent?</h3>
+                <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur illum illo hic, ipsum officia obcaecati culpa vel pariatur repellendus quibusdam.</p>
+            </div>
+            <div class="p-4 bg-[#F8F9FF] rounded-lg">
+                <h3 class="font-bold">Question-3: What is event delegation in the DOM?</h3>
+                <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur illum illo hic, ipsum officia obcaecati culpa vel pariatur repellendus quibusdam.</p>
+            </div>
+        </div>
+    </section>
+
     <script src="scripts/blog.js"></script>
 </body>
 
