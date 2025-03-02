@@ -30,15 +30,23 @@
         <div class="space-y-4">
             <div class="p-4 bg-[#F8F9FF] rounded-lg">
                 <h3 class="font-bold">Question-1: What are the different ways to select an element in the DOM?</h3>
-                <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur illum illo hic, ipsum officia obcaecati culpa vel pariatur repellendus quibusdam.</p>
+                <p class="text-gray-600">ডম থেকে এলিমেন্ট সিলেক্ট করার জন্য কয়েকটি পদ্ধতি রয়েছে: <code>getElementById</code> দিয়ে আইডি অনুসারে, <code>getElementsByClassName</code> দিয়ে ক্লাস অনুসারে, <code>getElementsByTagName</code> দিয়ে ট্যাগ অনুসারে, <code>querySelector</code> দিয়ে নির্দিষ্ট সিলেক্টর অনুসারে এবং <code>querySelectorAll</code> দিয়ে একাধিক এলিমেন্ট সিলেক্ট করা যায়।</p>
             </div>
             <div class="p-4 bg-[#F8F9FF] rounded-lg">
                 <h3 class="font-bold">Question-2: What is the difference between innerHTML, innerText, and textContent?</h3>
-                <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur illum illo hic, ipsum officia obcaecati culpa vel pariatur repellendus quibusdam.</p>
+                <p class="text-gray-600"><code>innerHTML</code> এলিমেন্টের HTML কোডসহ সব কিছু রিটার্ণ করে, <code>innerText</code> শুধুমাত্র ্দেখা যায় এমন লেখা রিটার্ণ করে, আর <code>textContent</code> সব লেখা রিটার্ণ করে, এমনকি CSS দ্বারা লুকানো থাকলেও।</p>
             </div>
             <div class="p-4 bg-[#F8F9FF] rounded-lg">
                 <h3 class="font-bold">Question-3: What is event delegation in the DOM?</h3>
-                <p class="text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora tenetur illum illo hic, ipsum officia obcaecati culpa vel pariatur repellendus quibusdam.</p>
+                <p class="text-gray-600">event delegation হলো একটি parent এলিমেন্টে ইভেন্ট যোগ করে এর child এলিমেন্টগুলোর ইভেন্ট পরিচালনা করা, যাতে কম মেমোরি ব্যবহৃত হয় এবং নতুন যোগ করা এলিমেন্টগুলোর উপরেও ইভেন্ট প্রয়োগ করা যায়।</p>
+            </div>
+            <div class="p-4 bg-[#F8F9FF] rounded-lg">
+                <h3 class="font-bold">Question-4: What is event bubbling in the DOM?</h3>
+                <p class="text-gray-600">ইভেন্ট বাবলিং হলো যখন কোনো child এলিমেন্টে ইভেন্ট ট্রিগার হলে, সেটি উপরের parent এলিমেন্টগুলোর দিকেও ছড়িয়ে পড়ে যতক্ষণ না তা ডকুমেন্ট পর্যন্ত পৌঁছে।</p>
+            </div>
+            <div class="p-4 bg-[#F8F9FF] rounded-lg">
+                <h3 class="font-bold">Question-5: How do you create, add, and remove elements using JavaScript?</h3>
+                <p class="text-gray-600">জাভাস্ক্রিপ্টে নতুন এলিমেন্ট তৈরি করতে <code>document.createElement</code> ব্যবহার করা হয়। এটি DOM-এ যোগ করতে <code>appendChild</code> বা <code>append</code> ব্যবহার করা হয়। অপসারণের জন্য <code>removeChild</code> বা <code>remove</code> মেথড ব্যবহার করা হয়।</p>
             </div>
         </div>
     </section>
